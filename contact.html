@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+    <title>Sign Up</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+
+<div class="container">
+    
+    <header>
+        <img src="images/Screenshot (13).png" alt="logo" width = "150" height = "110">
+    </header>
+
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="#">Menu</a>
+        <a href="#servi">Services</a>
+        <a href="login.html">Appointment</a>
+        <a href="contact.html">Contact</a>
+        <a href="#map">About Us</a>
+
+    </nav>
+
+    <main>
+<div class="nam"></div>
+  <div class="bod">
+        <div>
+            <h1>Sign Up</h1>
+            <form action="" method="get">
+             <div class="name">
+                <label>First Name</label>
+                <input type="text"/>
+                <label>Last Name</label>
+                <input type="text"/>
+            </div>
+             <div>
+                <p><label for="email">Email Address</label></p>
+                <input type="email" id="email" name="email" required autocomplete="off">
+             </div>
+             <div>
+                <p><label for="password">Password</label></p>
+                <input type="password" id="password" required >
+             </div>
+             <button type="button" onclick="myFunction()" id="btn" class ="button">Sign Up Now</button>
+             <p >Already a member? <a href="login.html" style="color: black; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">Log in</a></p>
+            </form>
+            <div></div>  
+    
+            <div> 
+               <div><i></i></div>
+               <div><i></i></div>
+               <div><i></i></i></div>
+            </div>
+        </dive>
+ 
+    
+    </div>
+
+<br>
+<div class="container">
+    <div class="footer" id="foot">
+        <footer>
+            <div class="container">
+                <div class="row">
+                    <div class="serv">
+                        <h3 style="text-align: center;">Services</h3>
+                        <ul>
+                            <li><a href="#">Bridal Makeup</a></li>
+                            <li><a href="#">Makeover</a></li>
+                            <li><a href="#">Beard Set</a></li>
+                        </ul>
+                    </div>
+                    <div class="links">
+                        <h3 style="font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;text-align: center;">About</h3>
+                        
+                        <ul >
+                            <li ><a href="#">Company</a></li>
+                            <li><a href="#">Team</a></li>
+                            <li><a href="#">Careers</a></li>
+                        </ul>
+                    </div>
+                    <div class="about">
+                        <h3>Nafi's Parlor</h3>
+                        <p>We, at Nafi's Parlor assure you the best of services possible. Live FREE.</p>
+                    </div>
+                    <div class="copyright"><a href="#"></a></div>
+                </div>
+                <p class="copyright">Nafi's Parlor © 2022</p>
+            </div>
+        </footer>
+    </div>
+    
+</div>
+
+</body>
+
+
+    
+</html>
+
+<script>
+    function myFunction() {
+      var txt;
+      if (confirm("Thank You for Joining Us\n YOUR ACCOUNT HAS BEEN CREATED SUCCESSFULLY")) {
+        txt = "You pressed OK!";
+      } else {
+        txt = "You pressed Cancel!";
+      }
+      document.getElementById("demo").innerHTML = txt;
+    }
+</script>
